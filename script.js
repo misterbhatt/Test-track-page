@@ -17,7 +17,6 @@ form.addEventListener('submit', e => {
     headers: {
       'x-access-token': `${apiKey}`,
       'Content-Type': 'application/json'
-      'Origin': 'http://localhost:8080'
     },
     body: JSON.stringify(requestBody)
   })
