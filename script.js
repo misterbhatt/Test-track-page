@@ -4,7 +4,7 @@ const status = document.getElementById('status');
 form.addEventListener('submit', e => {
   e.preventDefault();
   const trackingNumber = document.getElementById('tracking-number').value;
-  const apiKey = 'dtdc_track:6d3dad68a27cdfcf2e2c366ec8e7e00e';
+  const apiKey = 'api-key';
 
   const requestBody = {
         "trkType": 'cnno',
